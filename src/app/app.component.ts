@@ -5,6 +5,12 @@ import { Component } from '@angular/core';
 	template: `
 		<h1>Inline Template</h1>	
 `,
+	styles: [`
+		h1 {
+			color: red;
+		}	
+	`] 
+})
 export class AppComponent {
   title = 'I  changed it!';
 }
